@@ -9,8 +9,8 @@ from email.mime.multipart import MIMEMultipart
 SMTP_HOST = "smtp.gmail.com"
 SMTP_PORT = 587
 SMTP_USER = "waberto113@gmail.com"
-SMTP_PASS = "rwhfgsmjrfxafrws"  # Contraseña de aplicación
-ALERT_EMAIL = "waberto113@gmail.com"  # A quién enviar el reporte
+SMTP_PASS = # Contraseña de aplicación preferible gmail
+ALERT_EMAIL = # A quién enviar el reporte
 
 def send_email(report_text):
     msg = MIMEMultipart()
